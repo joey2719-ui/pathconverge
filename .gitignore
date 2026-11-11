@@ -1,0 +1,12 @@
+# R
+*.Rproj
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+cache/
+*_ckpt/
+*.log
+
+# OS
+.DS_Store

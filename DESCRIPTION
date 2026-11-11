@@ -1,0 +1,21 @@
+Package: pathconverge
+Type: Package
+Title: Permutation Null Model for Cross-Omics Pathway Convergence
+Version: 0.1.1
+Authors@R: person("Chung-Hsien", "Lin", email = "author@example.org",
+    role = c("aut", "cre"))
+Description: Tests whether a nominated biomarker panel and a metabolic signature
+    converge on shared biochemical pathways more often than expected under a
+    size-matched permutation null. Pathway membership supports metabolite
+    (KEGG compound) and gene modes; the convergence statistic supports binary
+    co-membership and direction-aware scoring. Includes specificity-stratified
+    convergence curves, a random-panel benchmark that randomises the
+    panel-to-pathway mapping, and ORA-threshold sensitivity analyses.
+    Developed and validated on an NSCLC plasma proteomics-metabolomics
+    case study.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.1)
+Imports: data.table
+Suggests: ggplot2, knitr, rmarkdown
+VignetteBuilder: knitr
